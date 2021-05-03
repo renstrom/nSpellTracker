@@ -1,10 +1,15 @@
-## Interface: 70100
-## Title: |cffCC3333 n|rSpellTracker
+## Interface: 90005
+## Title: |cffCC3333n|rSpellTracker
 ## Notes: Simple buff, debuff and cooldown tracking for units and spells
-## OptionalDeps: !Beautycase
+## Author: lithammer, Xruptor
+## Version: 1.0
+
+libs\LibStub\LibStub.lua
+libs\LibCustomGlow-1.0\LibCustomGlow-1.0.lua
 
 nSpellTracker.lua
 
+classes\demonhunter.lua
 classes\deathknight.lua
 classes\druid.lua
 classes\hunter.lua
@@ -20,3 +25,5 @@ classes\everyone.lua
 
 auras.lua
 cooldowns.lua
+tempenchants.lua
+spells.lua
